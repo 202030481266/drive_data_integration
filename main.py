@@ -406,7 +406,7 @@ def login():
         username = request.form['username']
         password = request.form['password']
         user = User.query.filter_by(username=username).first()
-        if check_password_hash(user.password_hash, password):
+        if user is not None and check_password_hash(user.password_hash, password):
             login_user(user)
             return redirect(url_for('admin.index'))
     return render_template('login.html')
