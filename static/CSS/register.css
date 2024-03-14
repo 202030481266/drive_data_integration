@@ -1,0 +1,26 @@
+.register{
+    width: 440px;
+    padding: 20px;
+    margin: 20vh auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: -1px -1px 5px #fff;
+    font-family: FangSong;
+}
+.tip{
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin: 10px;
+    margin-top: -10px;
+}
+.layui-form-item {
+    padding-right: 60px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+h1{
+    position: relative;
+    text-align: center;
+    top: -20px;
+}
