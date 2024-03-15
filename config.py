@@ -37,7 +37,7 @@ class DevelopmentConfig(BaseConfig):
     SECRET_KEY = 'LanSenLin'
 
     # sqlalchemy 设置
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:202030481266@117.72.36.19:3306/WebDemoDB'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://username:password@117.72.36.19:3306/WebDemoDB'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_POOL_SIZE = 20  # 设置并发池的大小
     SQLALCHEMY_COMMIT_ON_TEARDOWN = False
